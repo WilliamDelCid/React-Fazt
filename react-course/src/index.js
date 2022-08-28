@@ -1,36 +1,36 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client' //Se usa el client
-
+import {Greeting, UserCard} from './Greting'
+import Product, {Navbar} from './Product'
+import {Button} from './Button'
 const root = ReactDOM.createRoot(document.getElementById('root'))
-function Greeting(){
-// 
-// 	// return <div>
-//     //     <h1>Esto es un componente</h1>
-//     //     <p>Lorem 123</p>
-//     // </div>
-//     // const married = true
-//     // return <h1>{married ? 'estoy casado' : "no estoy casado"}</h1>
 
-//     function Gree(){
-//         const married = false
-//         const user = {
-//             firstName: 'Joe',
-//             lastname: 'Mcmillan'
-//         };
-//         // return <h1>{JSON.stringify(user)}</h1>
-//         return (
-//             <div>
-//                 {/* <h1>{user.firstName}</h1>
-//                 <h3>{user.lastname}</h3> */}
-//                <h1>{married.toString()}</h1> 
-//             </div>
-//         );
-//     }   
-// }
-// root.greeting( 
-//   <>
-//         <Greeting/>
-//    </>
-// 
 
-)
+root.render( 
+    <>
+    <Button text='Click me'/>
+    <Button text='Pay'/>
+    <Button text='Go to'/>
+
+
+    {/*     <UserCard
+        name="Ryan Rau"
+        amount={3000}
+        points={[99,33.3,22.2]}
+        address={{street: "123",city:"New York"}}
+        greet = {function(){
+            alert('Hello')
+        }}
+        />
+        <UserCard
+        name="Ryan Rau"
+        amount={3000}
+        points={[99,33.3,22.2]}
+        address={{street: "123",city:"New York"}}
+        greet = {function(){
+            alert('Hello')
+        }}
+        /> */}
+
+    </>
+ )
