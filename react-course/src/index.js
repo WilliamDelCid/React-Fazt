@@ -1,17 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom/client' //Se usa el client
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const root = ReactDOM.createRoot(document.getElementById('root'))
+function Greeting(){
+// 
+// 	// return <div>
+//     //     <h1>Esto es un componente</h1>
+//     //     <p>Lorem 123</p>
+//     // </div>
+//     // const married = true
+//     // return <h1>{married ? 'estoy casado' : "no estoy casado"}</h1>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//     function Gree(){
+//         const married = false
+//         const user = {
+//             firstName: 'Joe',
+//             lastname: 'Mcmillan'
+//         };
+//         // return <h1>{JSON.stringify(user)}</h1>
+//         return (
+//             <div>
+//                 {/* <h1>{user.firstName}</h1>
+//                 <h3>{user.lastname}</h3> */}
+//                <h1>{married.toString()}</h1> 
+//             </div>
+//         );
+//     }   
+// }
+// root.greeting( 
+//   <>
+//         <Greeting/>
+//    </>
+// 
+
+)
